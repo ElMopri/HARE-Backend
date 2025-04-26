@@ -1,0 +1,13 @@
+# Entorno virtual
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Archivos de configuración de base de datos (opcional)
+*.db
+
+# Configuración IDE
+.vscode/
+.idea/
+*.log
