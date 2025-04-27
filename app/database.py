@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import Session
 
 # URL de conexión
-DATABASE_URL = "postgresql://postgres:root@localhost/hare"
+DATABASE_URL = "postgresql://postgres:root@localhost:5432/hare"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
